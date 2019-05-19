@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="size">您已经获胜了
+  <text>{{n}}</text>
+  次</view>
+</view>
+  <view class="ima">
+    <image src="{{pcPunch}}"></image>
+    <text class="sp">{{result}}</text>
+    <image src="{{ask}}"></image>
+  </view>
+  
+    <view class="whiteBox">
+      <view class="out">出拳吧.骚年</view>
+      <view class="imaBox">
+        <block wx:for="{{allImage}}">
+          <image src="{{item}}" id="{{index}}" bindtap="myPunch"></image>
+       </block>  
+      </view>
+        <button bindtap="again">再来一次</button>
+        <button class="btn2" bindtap="allClear">C</button>
+      
+      
+    </view>

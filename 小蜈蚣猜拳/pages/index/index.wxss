@@ -1,0 +1,67 @@
+.container{
+  text-align: center
+}
+.size{
+  font-size:30rpx;
+  margin-top: 40rpx
+}
+image{
+  width:160rpx;
+  height:160rpx;
+  /* margin:70rpx 40rpx 60rpx 120rpx */
+  vertical-align: middle
+}
+.ima{
+ text-align:center;
+ margin-top: 60rpx
+}
+.sp{
+    display: inline-block;
+    width:160rpx;
+    height:160rpx;
+    
+    
+    color:red
+  
+
+}
+
+.whiteBox{
+  margin: 60rpx auto;
+  width:600rpx;
+  height:700rpx;
+  background:white;
+  text-align: center;
+  
+}
+.out{
+  line-height: 100rpx;
+  font-size:60rpx;
+  color:#ea8123
+  
+}
+.cen{
+  margin: 0 auto
+}
+.imaBox{
+  display: inline-block;
+  margin-top:40rpx
+}
+.imaBox image:nth-child(2){
+  margin: 0 30rpx
+}
+.whiteBox image{
+ 
+  border-radius:50%
+}
+.whiteBox .ima3{
+  margin-right: 0
+}
+button{
+  background:yellow;
+  margin-top: 80rpx;
+  width:460rpx
+}
+.btn2{
+  margin-top: 40rpx
+}
